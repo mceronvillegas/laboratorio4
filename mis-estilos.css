@@ -12,8 +12,9 @@ body {
 .cuadro {
     background-color: white;
     width: 600px;
-    height: 450px;
+    height: 480px;
     border-radius: 20px;
+
     
 }
 
@@ -42,8 +43,9 @@ body {
     position: relative;
     margin-bottom: 20px;
     text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 }
 
 .campos input {
@@ -53,6 +55,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 25px;
     outline: none;
+    
 }
 
 .campos .icono {
@@ -60,11 +63,13 @@ body {
     left: 15px;
     top: 12px;
     padding-left: 50px;
+    color: darkgray;
 }
 
 .iconoss {
     font-size:30px ;
     text-align: center;
+    padding-top: 20px;
 }
 .facebook{
     color: blue;
@@ -93,5 +98,12 @@ body {
     border-radius: 20px;
     border: none;
     color: white;
+    padding: 10px;
+    
     
 }
+
+.login-btn:hover {
+    opacity: 50%;
+}
+
